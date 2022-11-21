@@ -1,0 +1,254 @@
+body{
+margin: 0;
+padding: 0;
+background-image: url("/assets/imgs/Fondos/fondo6.png");
+background-position:fixed;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: helvetica;
+
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color:black;
+}
+
+header{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: transparent;
+
+}
+
+header .header-icons-container {
+
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: white;
+}
+
+header .header-icons-container .icons {
+
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    color: black;
+}
+
+header .header-icons-container .icon-icons8-facebook-nuevo-1 {
+    font-size: 25px;
+    color: black;
+}
+
+header .header-icons-container .icons .icon-Instagram-icon{
+    font-size: 25px;
+    color: black;
+}
+
+header .header-icons-container .icons .icon-Linkedin-icon{
+    font-size: 25px;
+    color: black;
+}
+header .header-icons-container .icons .icon-Twitter-icon{
+    font-size: 25px;
+}
+header .header-icons-container .icons .icon-Youtube-icon{
+    font-size: 25px;
+    color: black;
+  
+}
+
+header .header-icons-container .icons .icon-icons8-facebook-nuevo-1:hover{
+    color: rgb(38, 0, 255)!important;
+    cursor: pointer;
+}
+
+header .header-icons-container .icons .icon-Instagram-icon:hover{
+    color: rgb(255, 21, 193)!important;
+    cursor: pointer;
+}
+
+header .header-icons-container .icons .icon-Linkedin-icon:hover{
+    color: rgb(83, 0, 216)!important;
+    cursor: pointer;
+}
+
+header .header-icons-container .icons .icon-Twitter-icon:hover{
+    color: rgb(70, 221, 255)!important;
+    cursor: pointer;
+}
+
+header .header-icons-container .icons .icon-Youtube-icon:hover{
+    color: rgb(255, 0, 0)!important;
+    cursor: pointer;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+
+}
+nav .nav-logo-container img{
+
+    width: 50px;
+    margin-top: 20px;
+
+}
+
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px ;
+}
+
+nav .profile-link a{
+
+}
+
+main .main-section{
+
+    max-width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 120px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    background: -webkit-linear-gradient(#fff, hsla(0,0%,100%,.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main .main-h1{
+    margin-top: 70px;
+    margin-bottom: 0px;
+   
+}
+
+
+main .main-p{
+
+    max-width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+
+
+}
+
+main .main-button{
+
+width: 530px;
+margin: 0 auto;
+}
+
+main .main-button button{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    font-size: 14px;
+    color: black;
+    padding: 0 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+main .main-button button:hover{
+    color: rgb(255, 255, 255)!important;
+    cursor: pointer;
+    background-color: black;
+
+}
+
+main .div-button {
+
+        justify-content: center;
+        display: flex;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.blogs-main{
+
+    display: grid;
+}
+.blogs-news-container{
+    background-color: white;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new{
+
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 2fr;
+    column-gap: 50px;
+}
+.blogs-news-img-container{
+    grid-column: 1;
+}
+.blogs-news-img-container img{
+    width: 20%;
+}
+.blogs-news-info-cotainer{
+    grid-column: 2;
+}
+.blogs-news-info-cotainer p{
+    margin-bottom: 35px;
+    
+}
+.home-body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.blog-post-container{
+    padding: 0 50px 40px;
+
+}
+
+.blogs-post-cotainer h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+
+
+}
+
+.bg-color-blogs-page{
+  
+    background-color:black;
+  
+  }
+
+  
