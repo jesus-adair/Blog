@@ -1,7 +1,7 @@
 body{
 margin: 0;
 padding: 0;
-background-image: url("/assets/imgs/Fondos/fondo6.png");
+background-image: url("../assets/imgs/Fondos/fondo6.png");
 background-position:fixed;
 background-repeat: no-repeat;
 background-size: cover;
